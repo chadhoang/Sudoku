@@ -14,7 +14,7 @@ This Python application is based off the classic Japanese logic-based puzzle, Su
 - **Solve!** button - automatically solves the puzzle for you using a recursive backtracking algorithm
 - Sleek and simple graphical user interface (GUI)
 
-## How to use
+## How To Use
 To use the application, download the `Sudoku.py` file onto your computer. The application also requires that you install Python (link: https://www.python.org/downloads/) and Pygame (link: https://www.pygame.org/wiki/GettingStarted) onto your device.
 Once the files are installed and placed into the proper locations, run the `Sudoku.py` file to play. A way that you can run a python file is by using your computer's terminal, where you change directories to where the `Sudoku.py` file is located, then enter
 ```
