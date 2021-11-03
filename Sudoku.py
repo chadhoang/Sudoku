@@ -330,7 +330,6 @@ def main_menu():
         pygame.draw.rect(screen, BLACK, settings_button)
         draw_text("Settings", font, WHITE, SCREEN_WIDTH, 320 + 15, True)
 
-        mx, my = pygame.mouse.get_pos()
         click = False
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
@@ -342,6 +341,7 @@ def main_menu():
                 if event.button:
                     click = True
 
+        mx, my = pygame.mouse.get_pos()
         # Enter game screen, instructions screen, or settings
         # screen if their buttons are clicked.
         if game_button.collidepoint(mx, my) and click:
