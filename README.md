@@ -2,6 +2,9 @@
 ## About
 This Python application is based off the classic Japanese logic-based puzzle, Sudoku.  In classic sudoku, the objective is to fill a 9×9 grid with digits so that each column, each row, and each of the nine 3×3 subgrids that compose the grid (also called "boxes", "blocks", or "regions") contain all of the digits from 1 to 9. The puzzle setter provides a partially completed grid, which for a well-posed puzzle has a single solution. My application seeks to transition the popular puzzle game from being played on pen-and-paper, and onto digital screens.
 
+## Demo
+[![Sudoku Demo Thumbnail](sudokuDemo.png)](https://youtu.be/DnhbtKAeGYk)
+
 ## Features
 - Random Board Generation -- number values and their placement location are randomized so that starting a new game will bring a unique puzzle experience each time.
 - Difficulty Customization - adjusting the difficulty setting will affect the number of completed cells you start with in when starting a new Sudoku puzzle. Difficulties include:
